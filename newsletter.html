@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HSSLive - Xtra features: WhatsApp Broadcast subscription</title>
+		<meta name="theme-color" content="#6200ED">
+		<link rel="stylesheet" href="styles.css" />
+
+		<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
+
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+	</head>
+	<body>
+		<div class="mContainer mdc-card">
+			<h1>Newsletter</h1>
+			<br />
+
+			<h4>Step1:</h4>
+			<span>Save HSSLive contact on your smartphone:</span>
+			<button class="mdc-button mdc-button--outlined createContact" onclick="createContact()">Save Contact</button>
+			<h4>Step2:</h4>
+			<label>Enter your name:</label>
+			<div class="mdc-text-field mdc-text-field--outlined">
+				<input type="text" id="tf-outlined" class="mdc-text-field__input nameField" />
+
+				<label for="tf-outlined" class="mdc-floating-label">Your Name</label>
+				<div class="mdc-notched-outline">
+					<svg>
+						<path class="mdc-notched-outline__path"></path>
+					</svg>
+				</div>
+				<div class="mdc-notched-outline__idle" style="border-color: #6200ED !important;"></div>
+			</div>
+			<br>
+			<button class="mdc-button mdc-button--raised" onclick="subscribe()">Subscribe</button>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

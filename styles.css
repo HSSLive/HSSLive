@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #6200ED;
+}
+.mContainer{
+	margin: 20px;
+	padding: 20px;
+}
+.mContainer h1{
+	color: #6200ED;
+	text-decoration: underline;
+}
+.createContact{
+	margin: 5px;
+	height: 50px !important;
+}
+.nameField{
+	color: #6200ED;
+	//display: none;
+}
